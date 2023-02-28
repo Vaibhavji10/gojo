@@ -68,16 +68,16 @@ PM_START_TEX = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="❣ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+            text="➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"t.me/{BOT_USERNAME}?startgroup=new"
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="help_back"),
-        InlineKeyboardButton(text=f"🥀 sᴛᴀᴛs 🥀", callback_data="stats_callback"),
+        InlineKeyboardButton(text=f"⚡️ɢʀᴏᴜᴘ", url="https://t.me/VM_Request"),
+        InlineKeyboardButton(text=f"🐲ᴄʜᴀɴɴᴇʟ", url="https://t.me/VMGalaxy"),
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="ABG_"),
-        InlineKeyboardButton(text="🥀 ᴏᴡɴᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="🔋ʜᴇʟᴘ", callback_data="help_back"),
+        InlineKeyboardButton(text="📮ᴀʙᴏᴜᴛ",callback_data="ABG_"),
     ],
 ]
 
